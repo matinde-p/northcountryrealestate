@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>North Country Real Estate Inc. - Northern Tanzania Properties</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.8;
+            color: #333;
+            background: url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80') no-repeat center center fixed;
+            background-size: cover;
+        }
+        header {
+            background: rgba(34, 66, 41, 0.85); /* Dark green with transparency */
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.8em;
+            font-weight: bold;
+        }
+        header p {
+            margin: 10px 0;
+            font-size: 1.3em;
+            font-style: italic;
+        }
+        .container {
+            max-width: 1100px;
+            margin: 40px auto;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.9); /* White with transparency */
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .section h2 {
+            color: #224229; /* Deep green */
+            border-bottom: 3px solid #8b5a2b; /* Earthy brown */
+            padding-bottom: 8px;
+            font-size: 1.8em;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            margin: 12px 0;
+            font-size: 1.1em;
+        }
+        ul li:before {
+            content: "✔ ";
+            color: #8b5a2b; /* Earthy brown */
+        }
+        .highlight {
+            font-weight: bold;
+            color: #224229;
+            font-size: 1.2em;
+        }
+        .highlight:before {
+            content: "🔹 ";
+        }
+        .payment:before {
+            content: "💳 ";
+        }
+        footer {
+            background: rgba(34, 66, 41, 0.85);
+            color: white;
+            text-align: center;
+            padding: 15px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            font-size: 1.1em;
+        }
+        a {
+            color: #8b5a2b;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+            color: #224229;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>North Country Real Estate Inc.</h1>
+        <p>Your Premier Partner for Property Investment in Northern Tanzania</p>
+    </header>
+
+    <div class="container">
+        <div class="section">
+            <h2>Expert Real Estate Services</h2>
+            <p>North Country Real Estate Inc. specializes in facilitating property transactions across Northern Tanzania’s vibrant regions—Arusha, Kilimanjaro, Tanga, and Manyara. Leveraging our deep expertise in the Tanzanian real estate market, we offer tailored solutions for:</p>
+            <ul>
+                <li>Residential Homes, Townhouses & Apartments</li>
+                <li>Commercial Properties & Business Land</li>
+                <li>Farmlands & Agricultural Estates</li>
+                <li>Vacant Plots for Development</li>
+                <li>Beachfront & Lakefront Properties</li>
+                <li>Investment Properties & Rental Units</li>
+                <li>Affordable Plots for First-Time Buyers</li>
+            </ul>
+            <p>With extensive experience, we ensure competitive pricing, secure transactions, and full compliance with Tanzania’s land regulations. Our dedicated team handles legal documentation, title deed verification, land surveys, and ownership transfers with precision.</p>
+        </div>
+
+        <div class="section">
+            <h2>Title Deed Assurance</h2>
+            <p class="highlight">Securing Genuine Title Deeds</p>
+            <p>We prioritize your peace of mind by verifying all properties with clean, legally authenticated title deeds. Our expert assistance navigates the process to safeguard against land disputes and fraudulent dealings.</p>
+        </div>
+
+        <div class="section">
+            <h2>Flexible Financing Options</h2>
+            <p class="highlight payment">Installment Payment Plans</p>
+            <p>Acquire your dream property with ease through our flexible installment options, designed to align with your financial needs.</p>
+        </div>
+
+        <div class="section">
+            <h2>Our Coverage Areas</h2>
+            <p>Serving the Northern Zone: Arusha, Moshi, Tanga, Babati, and Surrounding Regions</p>
+        </div>
+
+        <div class="section">
+            <h2>Contact Our Team</h2>
+            <p>Email: <a href="mailto:info@northcountryrealestate.com">info@northcountryrealestate.com</a></p>
+            <p>Phone: <a href="tel:+255615936744">+255 615 936 744</a></p>
+            <p>Alternate Phone: <a href="tel:+255755636744">+255 755 636 744</a></p>
+        </div>
+    </div>
+
+    <footer>
+        <p>🏡 Building Your Future in Northern Tanzania with North Country Real Estate Inc.</p>
+    </footer>
+</body>
+</html>
